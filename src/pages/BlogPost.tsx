@@ -37,7 +37,7 @@ const BlogPost: React.FC = () => {
         {/* Navigation */}
         <div className="mb-8">
           <Link to="/blog">
-            <Button variant="outline" icon={<ArrowLeft size={20} />}>
+            <Button variant="primary" icon={<ArrowLeft size={20} />}>
               Back to Blog
             </Button>
           </Link>
